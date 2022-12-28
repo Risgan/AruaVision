@@ -1,0 +1,21 @@
+.contenedor{
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    margin-right: 7px;
+    margin-left: 15px;
+    img{
+        height: 40px;
+
+    }
+}
+
+img{
+    height: 76px;
+}
