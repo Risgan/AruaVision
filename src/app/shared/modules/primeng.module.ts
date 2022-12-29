@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MaterialModule } from './modules/material.module';
-import { PrimengModule } from './modules/primeng.module';
+import {CarouselModule} from 'primeng/carousel';
 
 const modules=[
-  MaterialModule,
-  PrimengModule
+  CarouselModule
 ]
 
 @NgModule({
@@ -18,4 +16,4 @@ const modules=[
     modules
   ]
 })
-export class SharedModule { }
+export class PrimengModule { }
